@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import net.modularcontact.interdimensions.blocks.ModBlocks;
 import net.modularcontact.interdimensions.items.ModItems;
 
 public class ModCreativeModeTabs {
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RUBY.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .build()
