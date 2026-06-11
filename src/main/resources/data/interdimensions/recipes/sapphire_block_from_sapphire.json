@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "interdimensions:sapphire"
+    }
+  },
+  "result": {
+      "item": "interdimensions:sapphire_block"
+  }
+}

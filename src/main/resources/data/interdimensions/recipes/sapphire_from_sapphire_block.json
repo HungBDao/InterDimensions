@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "interdimensions:sapphire_block"
+    }
+  ],
+  "result": {
+      "item": "interdimensions:sapphire",
+      "count": 9
+  }
+}
