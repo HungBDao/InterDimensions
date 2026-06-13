@@ -20,10 +20,20 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RUBY.get());
-
-                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
+                    .build()
+    );
+
+    public static final RegistryObject<CreativeModeTab> INTERDIMENSIONS_BLOCKS_TAB = CREATIVE_MODE_TABS.register(
+            "interdimensions_blocks_tab",
+            () -> CreativeModeTab.builder()
+                    .title(Component.translatable("creativetab.interdimensions_blocks_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                    })
+                    .icon(() -> new ItemStack(ModBlocks.SAPPHIRE_BLOCK.get()))
                     .build()
     );
 

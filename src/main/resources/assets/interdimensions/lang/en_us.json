@@ -3,6 +3,8 @@
   "item.interdimensions.ruby": "Ruby",
 
   "block.interdimensions.sapphire_block": "Block of Sapphire",
+  "block.interdimensions.sapphire_ore": "Sapphire Ore",
 
-  "creativetab.interdimensions_ingredients_tab": "Inter Dimensions Ingredients"
+  "creativetab.interdimensions_ingredients_tab": "Inter Dimensions Ingredients",
+  "creativetab.interdimensions_blocks_tab": "Inter Dimensions Blocks"
 }
