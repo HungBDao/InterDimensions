@@ -4,9 +4,13 @@
 
   "item.interdimensions.metal_detector": "Metal Detector",
 
+  "item.interdimensions.strawberry": "Strawberry",
+
   "block.interdimensions.sapphire_block": "Block of Sapphire",
   "block.interdimensions.sapphire_ore": "Sapphire Ore",
 
   "creativetab.interdimensions_ingredients_tab": "Inter Dimensions Ingredients",
-  "creativetab.interdimensions_blocks_tab": "Inter Dimensions Blocks"
+  "creativetab.interdimensions_blocks_tab": "Inter Dimensions Blocks",
+
+  "tooltip.interdimensions.metal_detector.tooltip": "Used to find ores and other valuable items underground"
 }
