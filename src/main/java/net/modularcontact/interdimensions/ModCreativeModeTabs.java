@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RUBY.get());
 
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+                        pOutput.accept(ModItems.STRAWBERRY.get());
                     })
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .build()
