@@ -20,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RUBY.get());
+
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
                     })
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .build()
